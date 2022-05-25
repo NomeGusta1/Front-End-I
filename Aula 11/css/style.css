@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+* {
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+}
+
+body{
+width: 100%;
+height: 678px;
+}
+
+.cabeçalho{
+background-color: #222222;
+display: flex;
+justify-content:space-between;
+height: 100px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo{
+display: flex;
+align-items: center;
+gap: 10px;
+margin-left: 20px;
+margin-right: 20px; 
+}
+
+.imagem_nome{
+width: 100%;
+height: 23px;
+}
+
+.menu{
+font-size: 16px;
+display: flex;
+gap: 20px;
+flex-direction: row;
+padding-right: 30px;
+height: 100px;
+font-family: 'Roboto', sans-serif;
+align-items: center;
+}
+
+p{
+display: inline;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #F3F3F3;
+}
+
+main{
+background-color: #E5E5E5;
+width: 100%;
+height: 463px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 7px;
+}
+
+.delivery{
+background-image: url(../img/delivery.jpg);
+width: 490px;
+height: 350px;
+}
+
+.texto_delivery{
+display: flex;
+justify-content: center;
+font-size: 24px;
+color: #FC200C;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+
+.delivery span{
+color: white;
+margin-left: 5px;
+margin-right: 5px;
+border-radius: 5px;
+padding: 5px;
+}
+
+.cardapio{
+background-color: white;
+display: flex;
+height: 350px;
+width: 490px;
+border-radius: 5px;
+justify-content: start;
+flex-direction: column;
+}
+
+.titulo_cardápio{
+font-family: 'Roboto';
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90px;
+}
+
+.texto_cardápio{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #FC200C;
+}
+
+.cardápio_sabores{
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-grow: 1;
+}
+
+.texto_sabores{
+flex-direction: column;
+display: flex;
+gap: 10px;
+list-style-type: none;
+}
+
+.mais_pedidas{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #222222;
+}
+
+ol{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+}
+
+footer{
+height: 150px;
+background-color: #222222;
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding-left: 20px;
+padding-right: 70px;
+align-items: center;
+}
+
+.rodapé{
+display: flex;
+flex-grow: 1;
+flex-direction: column;
+justify-content: end;
+gap: 12px;
+}
+
+.logo_rodapé{
+display: flex;
+align-items: center;
+gap: 10px;
+margin-left: 20px;
+margin-right: 20px;
+}
